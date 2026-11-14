@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "three-freezen.ja",
+  "name": {
+    "zh": "日语（全量翻译）",
+    "en": "Japanese (full translation)"
+  },
+  "summary": {
+    "zh": "DeskOrder 界面的日语全量翻译：967 条词条全部译出，覆盖设置、分区、面板、组件、插件市场与所有属性面板。",
+    "en": "Complete Japanese translation of the DeskOrder UI — all 967 strings, from settings and zones to the plugin marketplace and every property panel."
+  },
+  "description": {
+    "zh": "由 DeskOrder 官方维护的日语语言包，覆盖宿主全部 967 条词条（覆盖率 100%），不依赖英文回退。\n\n术语统一（ゾーン／パネル／ウィジェット／プラグイン／プリセット 等），按钮用体言止め、说明句用です・ます調，符合 Windows 日语 UI 习惯。\n\n纯数据包，不执行任何代码。安装后在「设置 → 语言」里选择「日本語」即可切换。",
+    "en": "The official Japanese language pack for DeskOrder, translating all 967 host strings (100% coverage, no English fallback).\n\nTerminology is unified (ゾーン / パネル / ウィジェット / プラグイン / プリセット …), labels use noun phrases and sentences use polite です・ます style, following Windows Japanese UI conventions.\n\nDeclarative data only — no code is executed. Install it, then pick 日本語 under Settings → Language."
+  },
+  "version": "1.0.0",
+  "author": {
+    "name": "Three-Freezen",
+    "github": "Three-Freezen"
+  },
+  "repo": "Three-Freezen/DeskOrder-Plugin-Japanese",
+  "license": "Apache-2.0",
+  "kind": "language",
+  "apiVersion": 0,
+  "minAppVersion": "1.0.27",
+  "language": {
+    "code": "ja",
+    "nativeName": "日本語",
+    "base": "en",
+    "coverage": 1.0
+  },
+  "payload": {
+    "file": "i18n/ja.json"
+  },
+  "icon": "icon.png",
+  "changelog": {
+    "zh": "首个版本：967 条词条的日语全量翻译。",
+    "en": "First release: full Japanese translation of all 967 strings."
+  }
+}

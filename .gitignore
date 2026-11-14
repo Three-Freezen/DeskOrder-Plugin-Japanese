@@ -1,0 +1,13 @@
+# build products
+*.dopkg
+*.minisig
+dist/
+
+# signing keys never go into the repository
+*.key.json
+keys/
+!tools/lab-key/lab.key.json
+
+# tooling caches
+__pycache__/
+*.pyc
